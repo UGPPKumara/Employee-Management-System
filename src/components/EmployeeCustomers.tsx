@@ -12,7 +12,7 @@ import { Calendar } from "./ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { Search, Plus, MapPin, Phone, Mail, User, Building, Clock, CalendarIcon, Filter, Calendar as CalendarPlus, Eye, Navigation, AlertCircle, ExternalLink } from "lucide-react";
 import { format, addDays, isToday, isTomorrow, isThisWeek } from "date-fns";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 interface EmployeeCustomersProps {
   employee: {

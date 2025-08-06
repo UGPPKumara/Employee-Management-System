@@ -11,7 +11,7 @@ import { Textarea } from "./ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
 import { Fingerprint, Clock, MapPin, CalendarIcon, CheckCircle, XCircle, User, Plus, AlertTriangle } from "lucide-react";
 import { format, addDays } from "date-fns";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 interface EmployeeAttendanceProps {
   employee: {

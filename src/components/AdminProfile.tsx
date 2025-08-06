@@ -10,7 +10,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from 
 import { Switch } from "./ui/switch";
 import { Textarea } from "./ui/textarea";
 import { User, Settings, Lock, Bell, Shield, Check, X, Clock, MapPin, Fingerprint, AlertTriangle } from "lucide-react";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 interface AdminProfileProps {
   user: {

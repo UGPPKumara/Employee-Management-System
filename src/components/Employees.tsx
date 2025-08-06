@@ -7,7 +7,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from 
 import { Search, MapPin, Phone, Mail, Eye, Edit, Trash2 } from "lucide-react";
 import { useState } from "react";
 import { AddEmployeeDialog } from "./AddEmployeeDialog";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 interface EmployeesProps {
   onViewEmployee?: (employee: any) => void;
